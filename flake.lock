@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "miryoku-zmk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1751008212,
+        "narHash": "sha256-kbMRnLhnrwhqSBFA6udhZs2PFIiadSC9XxR0NbrueSo=",
+        "owner": "manna-harbour",
+        "repo": "miryoku_zmk",
+        "rev": "559aa4beae75cb3206ab411b7da2adb9665c6896",
+        "type": "github"
+      },
+      "original": {
+        "owner": "manna-harbour",
+        "repo": "miryoku_zmk",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1774273680,
@@ -18,6 +34,7 @@
     },
     "root": {
       "inputs": {
+        "miryoku-zmk": "miryoku-zmk",
         "nixpkgs": "nixpkgs",
         "zmk-nix": "zmk-nix"
       }
