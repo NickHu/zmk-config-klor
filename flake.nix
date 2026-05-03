@@ -64,7 +64,7 @@
             # enableZmkStudio = true;
             snippets = [ ];
 
-            zephyrDepsHash = "sha256-NioLnxuiI3gpgB2wAQUg/V/L/yMBlaob2wZtOdVoHDI=";
+            zephyrDepsHash = "sha256-uZtJIknc2AI/xY89giz6sinoZ7u8BTIGuT0NTdb7TXU=";
 
             meta = {
               description = "ZMK firmware";
